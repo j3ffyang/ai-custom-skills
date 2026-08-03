@@ -9,7 +9,7 @@
 **创建与维护者：** [Jeff Yang](https://github.com/j3ffyang)
 
 [![许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE)
-[![技能总数](https://img.shields.io/badge/技能数量-21-blue)](#平台与技能目录)
+[![技能总数](https://img.shields.io/badge/技能数量-23-blue)](#平台与技能目录)
 
 ---
 
@@ -20,8 +20,8 @@
 | 平台 | 用例 | 技能数量 | 了解详情 |
 |-------|-------|-----------|---------|
 | **Claude Code** | 云端IDE自动化，快速命令 | 3 | [`claude-code/`](./claude-code/README.md) |
-| **OpenClaw** | 工作流自动化，ClawHub注册库 | 15 | [`openclaw/`](./openclaw/README.md) |
-| **Hermes** | 代理管理，自动工作流 | 4 | [`hermes/`](./hermes/README.md) |
+| **OpenClaw** | 工作流自动化，ClawHub注册库 | 13 | [`openclaw/`](./openclaw/README.md) |
+| **Hermes** | 代理管理，自动工作流 | 7 | [`hermes/`](./hermes/README.md) |
 
 ---
 
@@ -34,7 +34,7 @@
 - [`readme-i18n`](./claude-code/readme-i18n/) — 同步README.md到简体中文，支持多语言
 - [`twitter-bookmarks-exporter`](./claude-code/twitter-bookmarks-exporter/) — 导出X/Twitter书签，附带元数据和媒体链接
 
-### OpenClaw（15个技能）
+### OpenClaw（13个技能）
 部署至ClawHub，支持工作流自动化、内容润色、图像和视频生成等。
 
 #### 文章润色
@@ -60,13 +60,16 @@
 - [`tibetan-buddhist-product-article-generator`](./openclaw/tibetan-buddhist-product-article-generator/) — 藏传佛事内容
 - [`tibetan-cinematic-video`](./openclaw/tibetan-cinematic-video/) — 藏族特色电影
 
-### Hermes（4个技能）
+### Hermes（7个技能）
 部署至Hermes，支持自动工作流和内容生成。
 
 - [`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/) — 生成每日AI新闻
 - [`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/) — 中文新闻
 - [`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/) — 历史长文
 - [`silk-essay-framework`](./hermes/260620-silk-essay-chn/) — 中国丝绸深度分析框架
+- [`markdown-to-minimal-image`](./hermes/260611-md2mini-img/) — 将Markdown文档总结并生成极简白板风格图片（5:2 / 5:4 社交横幅）
+- [`luoshenfu-literary-research`](./hermes/260625-luoShenFu/) — 《洛神赋》文学研究专题文章
+- [`zhiyanzhai-research`](./hermes/260723-zhiYanZhai/) — 脂砚斋身份考据研究长文（约一万字）
 
 ---
 

@@ -211,10 +211,11 @@ Closes #(issue number) if applicable.
 
 ## Code Review Process
 
-1. **Automated validation** — CI/CD checks:
-   - SKILL.md syntax validation
-   - Platform metadata checks
-   - License verification
+1. **Validation** — Pre-merge checks (manual, no CI pipeline at present):
+   - `SKILL.md` parses as valid Markdown with a complete YAML frontmatter (`name`, `description`, `version`, `author`, `license`)
+   - Platform metadata present and consistent
+   - License headers present (MIT)
+   - No API keys or sensitive data in code/examples
 
 2. **Maintainer review** — Manual verification:
    - Skill logic correctness

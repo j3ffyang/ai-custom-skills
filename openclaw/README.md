@@ -12,9 +12,8 @@
 
 ## Skills by Category
 
-### Writing Framework (2)
+### Writing Framework (1)
 - [`indepth-perspective`](./indepth-perspective/) — Reusable framework for building persuasive, emotionally layered articles
-- [`silk-essay-framework`](./260620-silk-essay-chn/) — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis — [ClawHub](https://clawhub.ai/j3ffyang/260620-silk-essay-chn)
 
 ### Blog Polishing (5)
 - [`blog-polish-zhcn`](./blog-polish-zhcn/) — Polish and translate to Simplified Chinese
@@ -34,10 +33,9 @@
 - [`ai-newsletter`](./ai-newsletter/) — Generate daily AI news newsletter
 - [`ai-newsletter-chn`](./ai-newsletter-chn/) — Generate daily AI news newsletter (Chinese)
 
-### Specialized Content (3)
+### Specialized Content (2)
 - [`tibetan-buddhist-product-article-generator`](./tibetan-buddhist-product-article-generator/) — Generate Tibetan Buddhist product articles
 - [`tibetan-cinematic-video`](./tibetan-cinematic-video/) — Generate authentic Tibetan cinematic videos
-- [`twitter-bookmarks-exporter`](./twitter-bookmarks-exporter/) — Export X/Twitter bookmarks with metadata
 
 ---
 
@@ -89,7 +87,7 @@ See individual `SKILL.md` files for full input/output contracts and workflow det
 
 ## Contributing
 
-See [`../CONTRIBUTING.md`](../CONTRIBUTING.md) for general guidelines.
+See [`CONTRIBUTING.md`](../CONTRIBUTING.md) for general guidelines.
 
 For OpenClaw-specific skills:
 1. Create a new folder: `mkdir my-skill-name`

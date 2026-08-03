@@ -14,6 +14,9 @@
 | [`ai-newsletter-prompt-chn`](./ai-newsletter-prompt-chn/) | 为中文用户生成每日AI新闻通讯 | 中文 |
 | [`five-dynasties-ten-kingdoms-article`](./five-dynasties-ten-kingdoms-article/) | 研究并撰写五代十国（公元907–979）时期的时间线长文 | 中文 |
 | [`silk-essay-framework`](./260620-silk-essay-chn/) | 关于中国丝绸纺织品（绫罗绸缎）的深度文章框架，结合历史、技术与文学分析 | 中文 |
+| [`markdown-to-minimal-image`](./260611-md2mini-img/) | 将Markdown文档总结并生成极简白板风格图片（支持 5:2 / 5:4 社交横幅） | 中文/英文 |
+| [`luoshenfu-literary-research`](./260625-luoShenFu/) | 《洛神赋》文学研究专题文章，涵盖文学、历史与哲学维度 | 中文 |
+| [`zhiyanzhai-research`](./260723-zhiYanZhai/) | 脂砚斋身份考据研究长文（约一万字），探讨《红楼梦》匿名批者 | 中文 |
 
 ---
 

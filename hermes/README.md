@@ -18,6 +18,9 @@
 | [`ai-newsletter-prompt-chn`](./ai-newsletter-prompt-chn/) | Generate daily AI news newsletter for Chinese audience | 中文 |
 | [`five-dynasties-ten-kingdoms-article`](./five-dynasties-ten-kingdoms-article/) | Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) | 中文 |
 | [`silk-essay-framework`](./260620-silk-essay-chn/) | Generate deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis | 中文 |
+| [`markdown-to-minimal-image`](./260611-md2mini-img/) | Summarize a Markdown document and generate a minimalist whiteboard-style image (5:2 / 5:4 social banners) | 中文/English |
+| [`luoshenfu-literary-research`](./260625-luoShenFu/) | Research and write a comprehensive analysis of 《洛神赋》 (Ode to the Goddess of the Luo River) with literary, historical & philosophical dimensions | 中文 |
+| [`zhiyanzhai-research`](./260723-zhiYanZhai/) | Research the identity of 脂砚斋 (Zhiyanzhai), the anonymous 红楼梦 commentator, in a ~10,000-word article | 中文 |
 
 ---
 

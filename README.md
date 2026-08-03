@@ -5,7 +5,7 @@
 **Created & Maintained by:** [Jeff Yang](https://github.com/j3ffyang)
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Total Skills](https://img.shields.io/badge/total%20skills-21-blue)](#platforms--skills-directory)
+[![Total Skills](https://img.shields.io/badge/total%20skills-23-blue)](#platforms--skills-directory)
 
 ---
 [English](./README.md) | [中文版本](./README_zh.md) 
@@ -17,8 +17,8 @@
 | Platform | Use Case | Skills | Learn More |
 |----------|----------|--------|------------|
 | **Claude Code** | Cloud IDE automation, slash commands | 3 | [`claude-code/`](./claude-code/README.md) |
-| **OpenClaw** | Workflow automation, ClawHub registry | 16 | [`openclaw/`](./openclaw/README.md) | 
-| **Hermes** | Agent orchestration, autonomous workflows | 4 | [`hermes/`](./hermes/README.md) |
+| **OpenClaw** | Workflow automation, ClawHub registry | 13 | [`openclaw/`](./openclaw/README.md) | 
+| **Hermes** | Agent orchestration, autonomous workflows | 7 | [`hermes/`](./hermes/README.md) |
 
 ---
 
@@ -48,7 +48,7 @@ Extend [Claude Code](https://claude.ai/code) IDE with custom slash commands and 
 
 ---
 
-### OpenClaw (14 skills)
+### OpenClaw (13 skills)
 Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, content polishing, media generation, and Tibetan Buddhist content workflows.
 
 #### Writing & Content Polishing
@@ -58,7 +58,6 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 - **[`blog-polish-eng-single-image`](./openclaw/blog-polish-eng-single-image/)** — Polish English blog + generate hero image prompt
 - **[`blog-polish-eng-multi-images`](./openclaw/blog-polish-eng-multi-images/)** — Polish English blog + generate hero + per-section image prompts
 - **[`blog-polish-zhcn-images`](./openclaw/blog-polish-zhcn-images/)** — Polish Chinese blog + generate image prompts
-- **[`silk-essay-framework`](./openclaw/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) — cross-platform: Hermes & OpenClaw
 
 #### Image Generation
 - **[`blog-image-embedder`](./openclaw/blog-image-embedder/)** — Generate and embed image placeholders into blog markdown
@@ -79,13 +78,16 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 
 ---
 
-### Hermes (4 skills)
+### Hermes (7 skills)
 Deploy to Hermes agent platform for autonomous workflow orchestration and content generation.
 
 - **[`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/)** — Generate daily AI news newsletter from fresh web sources
 - **[`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/)** — Generate daily AI news newsletter for Chinese audience
 - **[`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/)** — Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) in Simplified Chinese
 - **[`silk-essay-framework`](./hermes/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis
+- **[`markdown-to-minimal-image`](./hermes/260611-md2mini-img/)** — Summarize a Markdown document and generate a minimalist whiteboard-style image (5:2 / 5:4 social banners)
+- **[`luoshenfu-literary-research`](./hermes/260625-luoShenFu/)** — Research and write a comprehensive analysis of 《洛神赋》 (Ode to the Goddess of the Luo River) in Simplified Chinese
+- **[`zhiyanzhai-research`](./hermes/260723-zhiYanZhai/)** — Research the identity of 脂砚斋 (Zhiyanzhai), the anonymous 红楼梦 commentator, in a ~10,000-word article
 
 **📖 Platform guide:** [`hermes/README.md`](./hermes/README.md)
 
@@ -152,8 +154,8 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for:
 ### Platform-Specific Contributing
 
 Each platform has its own contributing guide:
-- **Claude Code:** [`claude-code/CONTRIBUTING.md`](./claude-code/CONTRIBUTING.md) *(if applicable)*
-- **OpenClaw:** [`openclaw/CONTRIBUTING.md`](./openclaw/CONTRIBUTING.md) *(if applicable)*
+- **Claude Code:** [`claude-code/README.md`](./claude-code/README.md)
+- **OpenClaw:** [`openclaw/README.md`](./openclaw/README.md)
 - **Hermes:** [`hermes/CONTRIBUTING.md`](./hermes/CONTRIBUTING.md)
 
 ---
@@ -177,16 +179,18 @@ ai-custom-skills/
 │   ├── ai-newsletter/
 │   ├── blog-polish-zhcn/
 │   ├── image-to-video-gen/
-│   ├── 260620-silk-essay-chn/
-│   └── ... (12 more)
+│   └── ... (11 more)
 │
-└── hermes/                      ← Hermes agent skills (4)
+└── hermes/                      ← Hermes agent skills (7)
     ├── README.md
     ├── CONTRIBUTING.md
     ├── ai-newsletter-prompt/
     ├── ai-newsletter-prompt-chn/
     ├── five-dynasties-ten-kingdoms-article/
-    └── 260620-silk-essay-chn/
+    ├── 260611-md2mini-img/
+    ├── 260620-silk-essay-chn/
+    ├── 260625-luoShenFu/
+    └── 260723-zhiYanZhai/
 ```
 
 ---

@@ -10,7 +10,6 @@
 
 ### 文章框架
 - [`indepth-perspective`](./indepth-perspective/) — 建设说服力强、情感层叠的文章的可复用框架
-- [`silk-essay-framework`](./260620-silk-essay-chn/) — 中国丝绸纺织品的深度文章框架，结合历史、技术与文学分析 — [ClawHub](https://clawhub.ai/j3ffyang/260620-silk-essay-chn)
 
 ### 文章润色
 - [`blog-polish-zhcn`](./blog-polish-zhcn/) — 打磨及翻译成简体中文
@@ -33,7 +32,6 @@
 ### 专题内容
 - [`tibetan-buddhist-product-article-generator`](./tibetan-buddhist-product-article-generator/) — 藏传佛事产品文章生成
 - [`tibetan-cinematic-video`](./tibetan-cinematic-video/) — 藏族特色电影视频生成
-- [`twitter-bookmarks-exporter`](./twitter-bookmarks-exporter/) — 导出Twitter书签
 
 ---
 
@@ -76,7 +74,7 @@ openclaw run blog-polish-zhcn --input draftPath=./my-draft.md outputDir=./out
 ---
 
 ## 贡献指南
-- 详细见 `[../CONTRIBUTING.md](../CONTRIBUTING.md)`
+- 详细见 [`CONTRIBUTING.md`](../CONTRIBUTING.md)
 - 新建技能：创建文件夹，撰写 `SKILL.md`、`README.md`，本地测试，提交PR。
 
 ---
