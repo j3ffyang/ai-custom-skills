@@ -1,0 +1,53 @@
+name: ClawHub Skill Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "openclaw/**"
+      - "hermes/**"
+      - "claude-code/**"
+      - ".github/workflows/clawhub-skill-sync.yml"
+  pull_request:
+    paths:
+      - "openclaw/**"
+      - "hermes/**"
+      - "claude-code/**"
+  workflow_dispatch:
+
+jobs:
+  dry-run:
+    if: github.event_name == 'pull_request'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - root: openclaw
+          - root: hermes
+          - root: claude-code
+          - root: ""
+            skill_path: claude-code/perplexity-downloader/perplexity-downloader
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    with:
+      root: ${{ matrix.root }}
+      skill_path: ${{ matrix.skill_path }}
+      dry_run: true
+
+  publish:
+    if: github.event_name != 'pull_request'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - root: openclaw
+          - root: hermes
+          - root: claude-code
+          - root: ""
+            skill_path: claude-code/perplexity-downloader/perplexity-downloader
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    with:
+      root: ${{ matrix.root }}
+      skill_path: ${{ matrix.skill_path }}
+      dry_run: false
+    secrets:
+      clawhub_token: ${{ secrets.clawhub_token }}
