@@ -27,7 +27,7 @@ jobs:
           - root: claude-code
           - root: ""
             skill_path: claude-code/perplexity-downloader/perplexity-downloader
-    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v0.23.3
     with:
       root: ${{ matrix.root }}
       skill_path: ${{ matrix.skill_path }}
@@ -44,7 +44,7 @@ jobs:
           - root: claude-code
           - root: ""
             skill_path: claude-code/perplexity-downloader/perplexity-downloader
-    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v0.23.3
     with:
       root: ${{ matrix.root }}
       skill_path: ${{ matrix.skill_path }}
