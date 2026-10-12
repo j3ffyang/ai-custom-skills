@@ -15,9 +15,10 @@
 
 | Platform | Use Case | Skills | Learn More |
 |----------|----------|--------|------------|
-| **Claude Code** | Cloud IDE automation, slash commands | 3 | [`claude-code/`](./claude-code/README.md) |
-| **OpenClaw** | Workflow automation, ClawHub registry | 13 | [`openclaw/`](./openclaw/README.md) | 
+| **OpenCode** | Session skills, loaded via `skills.paths` | 20+ | [`ai-thoughts/.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills) |
 | **Hermes** | Agent orchestration, autonomous workflows | 7 | [`hermes/`](./hermes/README.md) |
+| **OpenClaw** | Workflow automation, ClawHub registry | 13 | [`openclaw/`](./openclaw/README.md) | 
+| **Claude Code** | Cloud IDE automation, slash commands | 3 | [`claude-code/`](./claude-code/README.md) |
 
 ---
 
