@@ -1,6 +1,6 @@
 # OpenClaw技能
 
-> 面向[OpenClaw](https://openclaw.ai)工作流自动化平台的生产级技能，已发布至[ClawHub](https://clawhub.ai)注册库。
+> 面向[OpenClaw](https://openclaw.ai)工作流自动化平台的生产级技能，已发布至[ClawHub](https://clawhub.ai/j3ffyang)注册库。
 
 **← [返回主目录](../README.md)**
 

@@ -2,6 +2,8 @@
 
 > Production-ready AI and automation skills for multiple platforms — covering content creation, data export, workflow automation, and intelligent task orchestration.
 
+Published skills are available and maintained on [**ClawHub.ai/j3ffyang**](https://clawhub.ai/j3ffyang).
+
 **Created & Maintained by:** [Jeff Yang](https://github.com/j3ffyang)
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Total Skills](https://img.shields.io/badge/total%20skills-23-blue)](#platforms--skills-directory)
@@ -62,7 +64,7 @@ Deploy to Hermes agent platform for autonomous workflow orchestration and conten
 ---
 
 ### OpenClaw (13 skills)
-Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, content polishing, media generation, and Tibetan Buddhist content workflows.
+Deploy to [ClawHub](https://clawhub.ai/j3ffyang) registry for workflow automation, content polishing, media generation, and Tibetan Buddhist content workflows.
 
 #### Writing & Content Polishing
 - **[`indepth-perspective`](./openclaw/indepth-perspective/)** — Framework for building persuasive, emotionally layered articles
@@ -227,5 +229,5 @@ Individual skills may carry their own license declarations in their `SKILL.md` o
 - **GitHub:** [j3ffyang/ai-custom-skills](https://github.com/j3ffyang/ai-custom-skills)
 - **Claude Code:** https://claude.ai/code
 - **OpenClaw:** https://openclaw.ai
-- **ClawHub Registry:** https://clawhub.ai
+- **ClawHub Registry:** https://clawhub.ai/j3ffyang
 - **Hermes:** https://hermes.ai

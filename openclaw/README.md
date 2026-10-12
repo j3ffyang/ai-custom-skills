@@ -4,7 +4,7 @@
 
 ---
 
-> Production-ready skills for [OpenClaw](https://openclaw.ai) workflow automation platform, published to [ClawHub](https://clawhub.ai) registry.
+> Production-ready skills for [OpenClaw](https://openclaw.ai) workflow automation platform, published to [ClawHub](https://clawhub.ai/j3ffyang) registry.
 
 **← [Back to main](../README.md)**
 

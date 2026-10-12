@@ -2,6 +2,8 @@
 
 > 针对多个平台的生产级 AI 与自动化技能，涵盖内容创作、数据导出、工作流自动化与智能任务调度。
 
+已发布的技能均在 [**ClawHub.ai/j3ffyang**](https://clawhub.ai/j3ffyang) 上架并维护。
+
 **创建与维护者：** [Jeff Yang](https://github.com/j3ffyang)
 
 [![许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE) [![技能总数](https://img.shields.io/badge/技能数量-23-blue)](#平台与技能目录)
@@ -62,7 +64,7 @@ OpenCode 没有公开的技能注册库，因此**不从本仓库发布**。它�
 ---
 
 ### OpenClaw（13 个技能）
-部署至 [ClawHub](https://clawhub.ai) 注册库，用于工作流自动化、内容润色、媒体生成与藏传佛教内容工作流。
+部署至 [ClawHub](https://clawhub.ai/j3ffyang) 注册库，用于工作流自动化、内容润色、媒体生成与藏传佛教内容工作流。
 
 #### 写作与内容润色
 - **[`indepth-perspective`](./openclaw/indepth-perspective/)** — 构建有说服力、情感层次丰富的文章框架
@@ -227,5 +229,5 @@ ai-custom-skills/
 - **GitHub：** [j3ffyang/ai-custom-skills](https://github.com/j3ffyang/ai-custom-skills)
 - **Claude Code：** https://claude.ai/code
 - **OpenClaw：** https://openclaw.ai
-- **ClawHub 注册库：** https://clawhub.ai
+- **ClawHub 注册库：** https://clawhub.ai/j3ffyang
 - **Hermes：** https://hermes.ai
