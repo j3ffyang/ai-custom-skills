@@ -4,8 +4,7 @@
 
 **Created & Maintained by:** [Jeff Yang](https://github.com/j3ffyang)
 
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Total Skills](https://img.shields.io/badge/total%20skills-23-blue)](#platforms--skills-directory)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Total Skills](https://img.shields.io/badge/total%20skills-23-blue)](#platforms--skills-directory)
 
 ---
 [English](./README.md) | [中文版本](./README_zh.md) 
@@ -24,27 +23,40 @@
 
 ## Table of Contents
 
+- [Quick Navigation](#quick-navigation)
 - [Platforms & Skills Directory](#platforms--skills-directory)
-- [五代十国专题](#五代十国专题) (新增)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Project Structure](#project-structure)
 - [Contributors](#contributors)
 - [License](#license)
+- [Related Links](#related-links)
 
 ---
 
 ## Platforms & Skills Directory
 
-### Claude Code (3 skills)
-Extend [Claude Code](https://claude.ai/code) IDE with custom slash commands and productivity automation.
+### OpenCode (hosted in [ai-thoughts](https://github.com/j3ffyang/ai-thoughts))
 
-- **[`perplexity-downloader`](./claude-code/perplexity-downloader/)** — Download and export Perplexity.ai conversations as Markdown
-- **[`readme-i18n`](./claude-code/readme-i18n/)** — Synchronize README.md to Simplified Chinese with i18n support
-- **[`twitter-bookmarks-exporter`](./claude-code/twitter-bookmarks-exporter/)** — Export X/Twitter bookmarks with metadata and media links
+OpenCode has no public skill registry, so it is **not published from this repo**. Its skills live with the work in the sibling repo [`ai-thoughts/.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills) (20 skills), and load in every OpenCode session via `skills.paths` in `~/.config/opencode/opencode.jsonc`.
 
-**📖 Platform guide:** [`claude-code/README.md`](./claude-code/README.md)
+**📖 Source:** [`j3ffyang/ai-thoughts` · `.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills)
+
+---
+
+### Hermes (7 skills)
+Deploy to Hermes agent platform for autonomous workflow orchestration and content generation.
+
+- **[`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/)** — Generate daily AI news newsletter from fresh web sources
+- **[`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/)** — Generate daily AI news newsletter for Chinese audience
+- **[`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/)** — Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) in Simplified Chinese
+- **[`silk-essay-framework`](./hermes/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis
+- **[`markdown-to-minimal-image`](./hermes/260611-md2mini-img/)** — Summarize a Markdown document and generate a minimalist whiteboard-style image (5:2 / 5:4 social banners)
+- **[`luoshenfu-literary-research`](./hermes/260625-luoShenFu/)** — Research and write a comprehensive analysis of 《洛神赋》 (Ode to the Goddess of the Luo River) in Simplified Chinese
+- **[`zhiyanzhai-research`](./hermes/260723-zhiYanZhai/)** — Research the identity of 脂砚斋 (Zhiyanzhai), the anonymous 红楼梦 commentator, in a ~10,000-word article
+
+**📖 Platform guide:** [`hermes/README.md`](./hermes/README.md)
 
 ---
 
@@ -78,18 +90,14 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 
 ---
 
-### Hermes (7 skills)
-Deploy to Hermes agent platform for autonomous workflow orchestration and content generation.
+### Claude Code (3 skills)
+Extend [Claude Code](https://claude.ai/code) IDE with custom slash commands and productivity automation.
 
-- **[`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/)** — Generate daily AI news newsletter from fresh web sources
-- **[`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/)** — Generate daily AI news newsletter for Chinese audience
-- **[`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/)** — Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) in Simplified Chinese
-- **[`silk-essay-framework`](./hermes/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis
-- **[`markdown-to-minimal-image`](./hermes/260611-md2mini-img/)** — Summarize a Markdown document and generate a minimalist whiteboard-style image (5:2 / 5:4 social banners)
-- **[`luoshenfu-literary-research`](./hermes/260625-luoShenFu/)** — Research and write a comprehensive analysis of 《洛神赋》 (Ode to the Goddess of the Luo River) in Simplified Chinese
-- **[`zhiyanzhai-research`](./hermes/260723-zhiYanZhai/)** — Research the identity of 脂砚斋 (Zhiyanzhai), the anonymous 红楼梦 commentator, in a ~10,000-word article
+- **[`perplexity-downloader`](./claude-code/perplexity-downloader/)** — Download and export Perplexity.ai conversations as Markdown
+- **[`readme-i18n`](./claude-code/readme-i18n/)** — Synchronize README.md to Simplified Chinese with i18n support
+- **[`twitter-bookmarks-exporter`](./claude-code/twitter-bookmarks-exporter/)** — Export X/Twitter bookmarks with metadata and media links
 
-**📖 Platform guide:** [`hermes/README.md`](./hermes/README.md)
+**📖 Platform guide:** [`claude-code/README.md`](./claude-code/README.md)
 
 ---
 
@@ -220,4 +228,3 @@ Individual skills may carry their own license declarations in their `SKILL.md` o
 - **OpenClaw:** https://openclaw.ai
 - **ClawHub Registry:** https://clawhub.ai
 - **Hermes:** https://hermes.ai
-.
