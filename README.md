@@ -39,7 +39,7 @@
 
 ### OpenCode (hosted in [ai-thoughts](https://github.com/j3ffyang/ai-thoughts))
 
-OpenCode has no public skill registry, so it is **not published from this repo**. Its skills live with the work in the sibling repo [`ai-thoughts/.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills) (20 skills), and load in every OpenCode session via `skills.paths` in `~/.config/opencode/opencode.jsonc`.
+OpenCode has no public skill registry, so it is **not published from this repo**. Its skills live with the work in the sibling repo [`ai-thoughts/.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills) (20+ skills), and load in every OpenCode session via `skills.paths` in `~/.config/opencode/opencode.jsonc`.
 
 **📖 Source:** [`j3ffyang/ai-thoughts` · `.opencode/skills/`](https://github.com/j3ffyang/ai-thoughts/tree/main/.opencode/skills)
 
